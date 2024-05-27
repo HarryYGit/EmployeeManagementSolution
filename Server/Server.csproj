@@ -9,19 +9,19 @@
 
 
   <ItemGroup>
-	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 	  
 
-	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
-	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
-	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
-	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0" >
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.5" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAassets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAassets>
 	  </PackageReference>
-	  <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.0.3" />
-	  <PackageReference Include="Swashbuckle.AspNetCore.Filter" Version="7.0.12" />
-	  <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
+	  <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.5.2" />
+	  <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="8.0.2" />
+	  <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.2" />
 	  
 	<ProjectReference Include="..\BaseLibrary\BaseLibrary.csproj" />
 	<ProjectReference Include="..\ServerLibrary\ServerLibrary.csproj" />
