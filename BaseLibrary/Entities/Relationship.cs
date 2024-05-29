@@ -9,8 +9,6 @@ namespace BaseLibrary.Entities
 {
     public class Relationship
     {
-        //Relationship : One to many
-        [JsonIgnore]
-        public List<Employee>? Employees { get; set; }
+      
     }
 }
